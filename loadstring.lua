@@ -3,22 +3,22 @@ local SaveManager = loadstring(game:HttpGetAsync("https://raw.githubusercontent.
 local InterfaceManager = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ActualMasterOogway/Fluent-Renewed/master/Addons/InterfaceManager.luau"))()
  
 local Window = Library:CreateWindow{
-    Title = `Fluent {Library.Version}`,
-    SubTitle = "by Actual Master Oogway",
-    TabWidth = 160,
+    Title = `GAME NAME - fxxtjob `,
+    SubTitle = "by _n4rl",
+    TabWidth = 120,
     Size = UDim2.fromOffset(830, 525),
     Resize = true, -- Resize this ^ Size according to a 1920x1080 screen, good for mobile users but may look weird on some devices
     MinSize = Vector2.new(470, 380),
-    Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
-    Theme = "Dark",
+    Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
+    Theme = "Git Hub Dark Default",
     MinimizeKey = Enum.KeyCode.RightControl -- Used when theres no MinimizeKeybind
 }
 
 -- Fluent Renewed provides ALL 1544 Lucide 0.469.0 https://lucide.dev/icons/ Icons and ALL 9072 Phosphor 2.1.0 https://phosphoricons.com/ Icons for the tabs, icons are optional
 local Tabs = {
     Main = Window:CreateTab{
-        Title = "Main",
-        Icon = "phosphor-users-bold"
+        Title = "General",
+        Icon = " house"
     },
     Settings = Window:CreateTab{
         Title = "Settings",
