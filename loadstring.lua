@@ -5,11 +5,11 @@ local InterfaceManager = loadstring(game:HttpGetAsync("https://raw.githubusercon
 local Window = Library:CreateWindow{
     Title = `GAME NAME - fxxtjob `,
     SubTitle = "by _n4rl",
-    TabWidth = 120,
+    TabWidth = 160,
     Size = UDim2.fromOffset(830, 525),
     Resize = true, -- Resize this ^ Size according to a 1920x1080 screen, good for mobile users but may look weird on some devices
     MinSize = Vector2.new(470, 380),
-    Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
+    Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "Dark",
     MinimizeKey = Enum.KeyCode.RightControl -- Used when theres no MinimizeKeybind
 }
