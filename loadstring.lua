@@ -10,7 +10,7 @@ local Window = Library:CreateWindow{
     Resize = true, -- Resize this ^ Size according to a 1920x1080 screen, good for mobile users but may look weird on some devices
     MinSize = Vector2.new(470, 380),
     Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
-    Theme = "Git Hub Dark Default",
+    Theme = "Dark",
     MinimizeKey = Enum.KeyCode.RightControl -- Used when theres no MinimizeKeybind
 }
 
